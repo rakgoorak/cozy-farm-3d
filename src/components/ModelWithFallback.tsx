@@ -39,8 +39,16 @@ interface KenneyModelProps extends GroupProps {
   fallback?: ReactNode
 }
 
+export function modelPath(path: string): string {
+  const base = import.meta.env.BASE_URL ?? '/'
+  const cleanBase = base.endsWith('/') ? base : `${base}/`
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path
+  return `${cleanBase}${cleanPath}`
+}
+
 function GltfInner({ src, ...props }: KenneyModelProps) {
-  const { scene } = useGLTF(src)
+  const resolved = modelPath(src)
+  const { scene } = useGLTF(resolved)
   const cloned = useMemo(() => {
     const c = scene.clone(true)
     c.traverse((obj) => {
@@ -69,12 +77,12 @@ export function KenneyModel({ src, fallback = null, ...props }: KenneyModelProps
 }
 
 try {
-  useGLTF.preload('/models/farmer.glb')
-  useGLTF.preload('/models/tree.glb')
-  useGLTF.preload('/models/barn.glb')
-  useGLTF.preload('/models/cloud.glb')
-  useGLTF.preload('/models/fountain.glb')
-  useGLTF.preload('/models/grass-tuft.glb')
+  useGLTF.preload(modelPath('models/farmer.glb'))
+  useGLTF.preload(modelPath('models/tree.glb'))
+  useGLTF.preload(modelPath('models/barn.glb'))
+  useGLTF.preload(modelPath('models/cloud.glb'))
+  useGLTF.preload(modelPath('models/fountain.glb'))
+  useGLTF.preload(modelPath('models/grass-tuft.glb'))
 } catch {
   /* ignore preload errors */
 }

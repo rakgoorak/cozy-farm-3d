@@ -6,12 +6,12 @@ import { useFarmStore } from '../store/farmStore'
 import { useKeys } from '../game/useKeys'
 import { MOVE_SPEED, BOUNDS, OUTFIT_COLORS, OutfitOption } from '../game/constants'
 import { sfx } from '../game/sounds'
-import { ModelErrorBoundary, FallbackFarmer } from './ModelWithFallback'
+import { ModelErrorBoundary, FallbackFarmer, modelPath } from './ModelWithFallback'
 import { useCurrentTime } from '../game/useCurrentTime'
 
 function KenneyFarmer({ moving, acting }: { moving: boolean; acting: boolean }) {
   const group = useRef<THREE.Group>(null)
-  const { scene, animations } = useGLTF('/models/farmer.glb')
+  const { scene, animations } = useGLTF(modelPath('models/farmer.glb'))
   const { actions, names } = useAnimations(animations, group)
 
   useEffect(() => {
