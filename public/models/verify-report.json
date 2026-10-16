@@ -1,0 +1,400 @@
+[
+  {
+    "file": "barn.glb",
+    "size": 39660,
+    "ok": true,
+    "errors": [],
+    "magic": "glTF",
+    "version": 2,
+    "headerLength": 39660,
+    "jsonChunk": {
+      "length": 1688,
+      "type": "JSON"
+    },
+    "asset": {
+      "generator": "UnityGLTF",
+      "version": "2.0"
+    },
+    "nodeCount": 1,
+    "meshCount": 1,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "building-small-a",
+        "primitives": 1
+      }
+    ],
+    "animations": [],
+    "materials": [
+      "colormap"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        0.949999988079071,
+        0.5
+      ]
+    },
+    "estimatedHeight": 0.95,
+    "estimatedWidth": 1,
+    "estimatedDepth": 1,
+    "mtimeSize": 39660
+  },
+  {
+    "file": "cloud.glb",
+    "size": 23788,
+    "ok": true,
+    "errors": [],
+    "magic": "glTF",
+    "version": 2,
+    "headerLength": 23788,
+    "jsonChunk": {
+      "length": 1800,
+      "type": "JSON"
+    },
+    "asset": {
+      "generator": "UnityGLTF",
+      "version": "2.0"
+    },
+    "nodeCount": 1,
+    "meshCount": 1,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "cloud",
+        "primitives": 1
+      }
+    ],
+    "animations": [],
+    "materials": [
+      "colormap"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        1,
+        0.5
+      ]
+    },
+    "estimatedHeight": 1,
+    "estimatedWidth": 1,
+    "estimatedDepth": 1,
+    "mtimeSize": 23788
+  },
+  {
+    "file": "farmer.glb",
+    "size": 87624,
+    "ok": true,
+    "errors": [],
+    "magic": "glTF",
+    "version": 2,
+    "headerLength": 87624,
+    "jsonChunk": {
+      "length": 28760,
+      "type": "JSON"
+    },
+    "asset": {
+      "generator": "UnityGLTF",
+      "version": "2.0"
+    },
+    "nodeCount": 8,
+    "meshCount": 6,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "leg-left",
+        "primitives": 1
+      },
+      {
+        "index": 1,
+        "name": "leg-right",
+        "primitives": 1
+      },
+      {
+        "index": 2,
+        "name": "torso",
+        "primitives": 1
+      },
+      {
+        "index": 3,
+        "name": "arm-left",
+        "primitives": 1
+      },
+      {
+        "index": 4,
+        "name": "arm-right",
+        "primitives": 1
+      },
+      {
+        "index": 5,
+        "name": "antenna",
+        "primitives": 1
+      }
+    ],
+    "animations": [
+      "static",
+      "idle",
+      "walk",
+      "jump"
+    ],
+    "materials": [
+      "colormap"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.30000001192092896,
+        -0.20000000298023224,
+        -0.30000001192092896
+      ],
+      "max": [
+        0.30000001192092896,
+        0.6000000238418579,
+        0.33500000834465027
+      ]
+    },
+    "estimatedHeight": 0.8,
+    "estimatedWidth": 0.6,
+    "estimatedDepth": 0.635,
+    "mtimeSize": 87624
+  },
+  {
+    "file": "flag.glb",
+    "size": 13276,
+    "ok": true,
+    "errors": [],
+    "magic": "glTF",
+    "version": 2,
+    "headerLength": 13276,
+    "jsonChunk": {
+      "length": 1716,
+      "type": "JSON"
+    },
+    "asset": {
+      "generator": "UnityGLTF",
+      "version": "2.0"
+    },
+    "nodeCount": 1,
+    "meshCount": 1,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "flag",
+        "primitives": 1
+      }
+    ],
+    "animations": [],
+    "materials": [
+      "colormap"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.10000000149011612,
+        0,
+        -0.10000000149011612
+      ],
+      "max": [
+        0.10000000149011612,
+        1.2350000143051147,
+        0.5849999785423279
+      ]
+    },
+    "estimatedHeight": 1.235,
+    "estimatedWidth": 0.2,
+    "estimatedDepth": 0.685,
+    "mtimeSize": 13276
+  },
+  {
+    "file": "fountain.glb",
+    "size": 14076,
+    "ok": true,
+    "errors": [],
+    "magic": "glTF",
+    "version": 2,
+    "headerLength": 14076,
+    "jsonChunk": {
+      "length": 1688,
+      "type": "JSON"
+    },
+    "asset": {
+      "generator": "UnityGLTF",
+      "version": "2.0"
+    },
+    "nodeCount": 1,
+    "meshCount": 1,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "pavement-fountain",
+        "primitives": 1
+      }
+    ],
+    "animations": [],
+    "materials": [
+      "colormap"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        0.5360000133514404,
+        0.5
+      ]
+    },
+    "estimatedHeight": 0.536,
+    "estimatedWidth": 1,
+    "estimatedDepth": 1,
+    "mtimeSize": 14076
+  },
+  {
+    "file": "grass-tuft.glb",
+    "size": 9028,
+    "ok": true,
+    "errors": [],
+    "magic": "glTF",
+    "version": 2,
+    "headerLength": 9028,
+    "jsonChunk": {
+      "length": 1872,
+      "type": "JSON"
+    },
+    "asset": {
+      "generator": "UnityGLTF",
+      "version": "2.0"
+    },
+    "nodeCount": 1,
+    "meshCount": 1,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "grass",
+        "primitives": 1
+      }
+    ],
+    "animations": [],
+    "materials": [
+      "colormap"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.2554912865161896,
+        0,
+        -0.26778146624565125
+      ],
+      "max": [
+        0.2554912865161896,
+        0.3092605173587799,
+        0.26778146624565125
+      ]
+    },
+    "estimatedHeight": 0.309,
+    "estimatedWidth": 0.511,
+    "estimatedDepth": 0.536,
+    "mtimeSize": 9028
+  },
+  {
+    "file": "tree.glb",
+    "size": 38160,
+    "ok": true,
+    "errors": [],
+    "magic": "glTF",
+    "version": 2,
+    "headerLength": 38160,
+    "jsonChunk": {
+      "length": 1676,
+      "type": "JSON"
+    },
+    "asset": {
+      "generator": "UnityGLTF",
+      "version": "2.0"
+    },
+    "nodeCount": 1,
+    "meshCount": 1,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "grass-trees",
+        "primitives": 1
+      }
+    ],
+    "animations": [],
+    "materials": [
+      "colormap"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        0.6359213590621948,
+        0.5
+      ]
+    },
+    "estimatedHeight": 0.636,
+    "estimatedWidth": 1,
+    "estimatedDepth": 1,
+    "mtimeSize": 38160
+  },
+  {
+    "file": "windmill.glb",
+    "size": 49764,
+    "ok": true,
+    "errors": [],
+    "magic": "glTF",
+    "version": 2,
+    "headerLength": 49764,
+    "jsonChunk": {
+      "length": 1688,
+      "type": "JSON"
+    },
+    "asset": {
+      "generator": "UnityGLTF",
+      "version": "2.0"
+    },
+    "nodeCount": 1,
+    "meshCount": 1,
+    "meshes": [
+      {
+        "index": 0,
+        "name": "building-small-b",
+        "primitives": 1
+      }
+    ],
+    "animations": [],
+    "materials": [
+      "colormap"
+    ],
+    "boundingBox": {
+      "min": [
+        -0.5,
+        0,
+        -0.5
+      ],
+      "max": [
+        0.5,
+        1.626499891281128,
+        0.5
+      ]
+    },
+    "estimatedHeight": 1.626,
+    "estimatedWidth": 1,
+    "estimatedDepth": 1,
+    "mtimeSize": 49764
+  }
+]
